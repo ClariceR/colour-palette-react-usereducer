@@ -1,3 +1,17 @@
+# Simple app to name and choose colours
+
+This project was built to practice using useRef and useReducer.
+
+The useRef holds a reference to the form inputs for colour name and hex number, so we can extract their values.
+
+With the useReducer we can pass an initial state for the colours list (an empty one) and a function that takes the current state, performs an action on that state (add the new colour) and returns the new state as current state.
+
+References:
+
+[Dave Ceddia - Examples of the useReducer Hook](https://daveceddia.com/usereducer-hook-examples/)
+
+Eve Porcello - LinkedIn React.js Essential Training
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
